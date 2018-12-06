@@ -1,0 +1,89 @@
+* {
+    box-sizing: border-box;
+    color:rgba(207, 217, 236, 0.9);
+    overflow: auto;
+  }
+  html, body {
+    margin: 0;
+    height: 100%;
+  }
+  #gifDiv{
+    display: inline-block;
+  }
+  body {
+    width: 100%;
+    font-family: 'Neuton', serif;
+    background-color: black !important;
+  }
+  img {
+    width:220px;
+    height:180px;
+    margin:10px;
+    margin-right: 35px;
+  }
+  label {
+    font-family: 'Fredericka the Great', cursive;
+    font-size: 30px;
+  }
+  h1 {
+    font-family: 'Black Ops One', cursive !important;
+    padding:20px;
+    text-align: center;
+    font-size: 50px !important;
+    color: rgb(94,189,250) !important;
+    border-bottom: 5px solid rgb(109,236,187);
+  }
+  .buttongif {
+    margin: 5px;
+    font-family: 'Itim', cursive;
+    background-color: #5c242a;
+    border-radius: 5px; 
+    padding:10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 20px;
+    color:#e6bfdb;
+    border: none;
+  }
+  .buttongif:hover {
+    background-color: silver;
+    color:rgba(26,5,6,0.9);
+  }
+  .col-md-12 {
+    padding: 8px;
+  }
+  #gif-input {
+    width: 100%;
+    margin-bottom: 15px;
+  }
+  #rating {
+    text-align: center;
+    font-family: 'Abril Fatface', cursive;
+  }
+  #add-movie {
+    font-family: 'Fredericka the Great', cursive;
+    background-color: #4aaaa5;
+    font-size: 20px;
+    border-radius: 5px;
+    border: none;
+    color: #eff1e4;
+  }
+  #add-movie:hover {
+    background-color: lightsalmon;
+    color: #eff1e4;
+  }
+  #to {
+    color:rgb(114,137,248);
+  }
+  #animated {
+    color: rgb(132,87,247);
+  }
+  #movies {
+    color:rgb(164,72,223);
+  }
+  #world {
+    color:rgb(205,83,186);
+  }
+
+
+
